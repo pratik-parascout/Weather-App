@@ -9,10 +9,10 @@ def index(request):
     else:
         city = 'Kolkata'
     
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=48297952930df0e214cf21b30381f778'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid='
     PARAMS = {'units':'metric'}
-    API_KEY = 'AIzaSyA68_KJ4SxH2b6vVVGROpXRZVFN38LKtTU'
-    SEARCH_ENGINE_ID = '51514c093c8264e3d'
+    API_KEY = ''
+    SEARCH_ENGINE_ID = ''
 
     query = city + " 1920x1080"
     page = 1
